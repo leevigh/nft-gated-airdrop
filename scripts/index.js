@@ -3,7 +3,7 @@ import fs from "fs";
 import csv from "csv-parser";
 
 const values = [];
-fs.createReadStream("airdrop.csv")
+fs.createReadStream("scripts/airdrop.csv")
   .pipe(csv())
   .on("data", (row) => {
     values.push([row.Address, row.Amount]);
