@@ -42,3 +42,7 @@ module.exports = {
   lockGasLimit: 200000000000,
   gasPrice: 10000000000,
 };
+
+// Deployed Addresses
+
+// NftGatedAirdropModule#NFTGatedAirdrop - 0xA2Bf6fBBD3854f35cA25612d13c9a6ba6963D5C1
